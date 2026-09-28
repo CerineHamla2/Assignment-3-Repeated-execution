@@ -27,7 +27,6 @@ while(stop!= "stop"):
     else:  ### mode==2 so calculate LCM
 
         while(diff1!=diff2):
-              # diff1=diff1-diff2
             if diff1>diff2:
                 diff1=diff1-diff2
             else:
@@ -37,9 +36,11 @@ while(stop!= "stop"):
         print("the LCM is:",lcm)
     stop=(input("enter stop if you want to stop here or continue: "))
 
-#lcm
-rows=0
+
+
+
 print("\n ###Pascal pyramid###")
+rows=0
 while(rows<=0):
     rows=int(input("enter a valid number of rows: "))
 row=" "
